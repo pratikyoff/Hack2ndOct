@@ -1,7 +1,7 @@
 extends Node2D
 
-const magnet = preload("res://Magnet.tscn")
-const playerBall = preload("res://PlayerBallScene/PlayerBall.tscn")
+const magnet = preload("res://Elements/Magnet/Magnet.tscn")
+const playerBall = preload("res://Elements/PlayerBall/PlayerBall.tscn")
 
 var rng = RandomNumberGenerator.new()
 
