@@ -1,6 +1,4 @@
 # Hack2ndOct
-Hackathon 2nd Oct 2020
 
-# Ideas
-* A 2d game
-* A real time pair programming extension for IDEs across IDEs
+Welcome to our hackathon. We have decided to create a 2D puzzle game inspired by the classic Rube Goldberg machine.
+This game is being developed using the Godot game engine.
