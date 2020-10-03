@@ -1,0 +1,49 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://images/playButton.png" type="Texture" id=1]
+[ext_resource path="res://images/mainMenu.png" type="Texture" id=2]
+[ext_resource path="res://images/resetButton.png" type="Texture" id=3]
+[ext_resource path="res://images/pauseButton.png" type="Texture" id=4]
+[ext_resource path="res://Levels/BaseLevel/BaseLevel.gd" type="Script" id=5]
+
+[node name="BaseLevel" type="MarginContainer"]
+pause_mode = 2
+anchor_right = 1.04173
+anchor_bottom = 1.0
+custom_constants/margin_right = 500
+custom_constants/margin_top = 640
+custom_constants/margin_left = 500
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+margin_left = 500.0
+margin_top = 640.0
+margin_right = 923.0
+margin_bottom = 768.0
+
+[node name="MainMenu" type="TextureButton" parent="HBoxContainer"]
+show_behind_parent = true
+margin_right = 103.0
+margin_bottom = 128.0
+texture_normal = ExtResource( 2 )
+
+[node name="Retry" type="TextureButton" parent="HBoxContainer"]
+margin_left = 107.0
+margin_right = 210.0
+margin_bottom = 128.0
+texture_normal = ExtResource( 3 )
+
+[node name="Pause" type="TextureButton" parent="HBoxContainer"]
+margin_left = 214.0
+margin_right = 317.0
+margin_bottom = 128.0
+texture_normal = ExtResource( 4 )
+
+[node name="Play" type="TextureButton" parent="HBoxContainer"]
+margin_left = 321.0
+margin_right = 423.0
+margin_bottom = 128.0
+texture_normal = ExtResource( 1 )
