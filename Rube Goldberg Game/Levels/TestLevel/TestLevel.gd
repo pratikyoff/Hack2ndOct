@@ -9,7 +9,7 @@ func _ready():
 	rng.randomize()
 
 	var m = magnet.instance()
-	m.position = Vector2(500,500)
+	m.position = Vector2(500,200)
 	m.z_index = -1
 	add_child(m)
 	

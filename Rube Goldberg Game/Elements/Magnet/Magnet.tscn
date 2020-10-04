@@ -23,6 +23,10 @@ gravity_scale = 2.0
 script = ExtResource( 2 )
 
 [node name="TextureRect" type="TextureRect" parent="."]
+margin_left = -29.4149
+margin_top = -22.8412
+margin_right = 27.5851
+margin_bottom = 42.1588
 grow_horizontal = 2
 texture = ExtResource( 1 )
 stretch_mode = 1
@@ -31,22 +35,22 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -17.0257, 22.5524 )
+position = Vector2( -17.9406, -0.28878 )
 shape = SubResource( 2 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
-position = Vector2( 17.5606, 22.8198 )
+position = Vector2( 16.6457, -0.0213814 )
 shape = SubResource( 2 )
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
-position = Vector2( 0.802261, 52.5925 )
+position = Vector2( -0.112679, 29.7513 )
 rotation = 1.5708
 shape = SubResource( 3 )
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="."]
-position = Vector2( -15.4212, 44.2134 )
+position = Vector2( -16.3361, 21.3722 )
 shape = SubResource( 4 )
 
 [node name="CollisionShape2D5" type="CollisionShape2D" parent="."]
-position = Vector2( 16.7583, 43.946 )
+position = Vector2( 15.8434, 21.1048 )
 shape = SubResource( 4 )
