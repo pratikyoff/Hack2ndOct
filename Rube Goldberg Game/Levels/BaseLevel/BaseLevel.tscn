@@ -19,14 +19,12 @@ __meta__ = {
 }
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
-pause_mode = 2
 margin_left = 500.0
 margin_top = 640.0
 margin_right = 923.0
 margin_bottom = 768.0
 
 [node name="MainMenu" type="TextureButton" parent="HBoxContainer"]
-pause_mode = 2
 show_behind_parent = true
 margin_right = 103.0
 margin_bottom = 128.0

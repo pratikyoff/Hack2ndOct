@@ -2,6 +2,9 @@ extends RigidBody2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	if self.linear_velocity.length() < 0.1:
+			print("Ball Stoped")
+			get_tree().change_scene("res://TitleScene/TitleScene.tscn")
 	pass
 
 func _integrate_forces(state):
