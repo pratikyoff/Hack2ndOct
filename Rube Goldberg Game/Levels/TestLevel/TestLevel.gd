@@ -21,12 +21,12 @@ func _ready():
 		var pb = playerBall.instance()
 		pbs = pb
 		pb.position = Vector2(rng.randf_range(150, 1200), rng.randf_range(150, 250))
-		pb.set_axis_velocity(Vector2(1,1))
+		pb.set_axis_velocity(Vector2(5,5))
 		#pb.z_index = -1
 		add_child(pb)
 		
 func _physics_process(delta):
 			
-	if pbs.linear_velocity.length() < 0.1:
+	if pbs.linear_velocity.length() < 1:
 			print("Ball Stoped")
 			get_tree().change_scene("res://TitleScene/TitleScene.tscn")
